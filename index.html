@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Nike</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700|Roboto:300,400,700" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	<link rel="icon" href="favicon.ico">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="gallery">
+			<div class="gallery__logo"><img src="img/logo.png" alt=""></div>
+			<div class="gallery__photo"><img src="img/cross.png" alt=""></div>
+			<div class="gallery__slider">
+				<ul class="slider__items">
+					<li class="slider__item active "></li>
+					<li class="slider__item slider__item--white"></li>
+					<li class="slider__item slider__item--red"></li>
+					<li class="slider__item slider__item--blue"></li>
+				</ul>
+			</div>
+		</div>
+		<div class="info">
+			<h1 class="info__title">Nike SB Stefan Janoski Max</h1>
+			<div class="info__subtitle">Unisex Skateboarding Shoe</div>
+				<ul class="info__scores" data-score="3">
+					<li class="info__star">
+						<svg width="9" height="9">
+							<use xlink:href="#star"></use>
+						</svg>
+					</li>
+					<li class="info__star">
+						<svg width="9" height="9">
+							<use xlink:href="#star"></use>
+						</svg>
+					</li>
+					<li class="info__star">
+						<svg width="9" height="9">
+							<use xlink:href="#star"></use>
+						</svg>
+					</li>
+					<li class="info__star">
+						<svg width="9" height="9">
+							<use xlink:href="#star"></use>
+						</svg>
+					</li>
+					<li class="info__star">
+						<svg width="9" height="9">
+							<use xlink:href="#star"></use>
+						</svg>
+					</li>
+				</ul>
+				<div class="info__block">
+					<select class="info__size" name="size">
+						<option value="Size">Size</option>
+						<option value="41">41</option>
+						<option value="42">42</option>
+						<option value="43">43</option>
+					</select>
+					<select class="info__size" name="qty">
+						<option value="Qty">Qty</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+					</select>
+				</div>
+					<a href="#" class="info__btn">Add to cart</a>
+			
+		</div>
+	</div>
+
+
+	<svg style="display: none;" xmlns="http://www.w3.org/2000/svg">
+		<symbol id="star" viewBox="0 0 9 9">
+			<path fill-rule="evenodd"
+				  d="M4.713,0.148 L5.858,2.989 L8.788,3.253 C8.992,3.272 9.074,3.538 8.920,3.678 L6.697,5.697 L7.363,8.702 C7.409,8.911 7.194,9.075 7.019,8.964 L4.500,7.371 L1.981,8.964 C1.806,9.075 1.591,8.910 1.637,8.702 L2.303,5.697 L0.080,3.677 C-0.075,3.537 0.008,3.271 0.211,3.253 L3.142,2.989 L4.287,0.148 C4.367,-0.050 4.633,-0.050 4.713,0.148 Z"/>
+		</symbol>
+	</svg>
+</body>
+</html>
